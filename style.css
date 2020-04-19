@@ -94,16 +94,12 @@ header p {
   }
 }
 
-@keyframes party {
-	0% {
-		background: linear-gradient(404deg, rgb(14, 20, 16), rgb(0, 0, 0));
+@media screen and (max-width: 500px) {
+	header h1 {
+		font-size: 54px;
 	}
 
-	50% {
-		background: linear-gradient(404deg, rgb(50, 88, 17), rgb(0, 0, 0));
-	}
-
-	100% {
-		background: linear-gradient(404deg, rgb(14, 20, 16), rgb(0, 0, 0));
+	header p {
+		font-size: 17px;
 	}
 }
